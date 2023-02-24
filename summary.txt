@@ -1,0 +1,22 @@
+1.Why did you choose the tools, libraries, and language you used for the coding exercise?
+For this project, I chose to use Java because it is the language I am most familiar with, and it is a widely-used language that 
+has plenty of good libraries available. I used java.util.Instant to deal with the comparison of time stamps since it provides a 
+simple and efficient way to work with time stamps. PriorityQueue was used to put the records of gaining points into an ascending 
+order based on time stamps, which were then polled by order to achieve the requirement of using the earliest points first. 
+HashMap was used to store the remaining points of each payer. Finally, I used the opencsv library for reading and parsing the CSV file, 
+as it provides a convenient and efficient way to work with CSV files in Java.
+
+2.What are the advantages and disadvantages of your solution?
+One advantage of my solution is that it is simple and easy to use, with clear instructions that allow users to get the expected return 
+easily. However, one disadvantage is that my solution only handles the specific input format provided in the prompt, and may not be 
+easily adaptable to other formats. Additionally, it assumes that the input CSV file is well-formed and does not handle malformed inputs 
+gracefully.
+
+3.What has been your favorite school or personal project thus far? What about it challenged you?
+My favorite project thus far has been the most recent one I completed in school, which allowed users to search for Reddit posts that 
+included certain keywords inputted by the users. It was my favorite project because it was the first team project I worked on, which 
+was a completely different experience for me. Working with a team allowed me to see how different people can bring unique perspectives 
+and skills to the table, and how important communication and collaboration are in achieving a common goal. The project challenged me in 
+terms of coordinating with team members, managing timelines , and integrating different parts of the codebase. It was a 
+valuable learning experience that taught me not only technical skills, but also soft skills such as teamwork, leadership, and 
+problem-solving. 

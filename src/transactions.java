@@ -1,10 +1,9 @@
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.PriorityQueue;
+import java.util.Scanner;
 import java.time.Instant;
 import java.io.FileReader;
-import java.io.IOException;
 import com.opencsv.CSVReader;
 
 public class transactions{
@@ -79,6 +78,15 @@ public class transactions{
 	}
 	
 	public static void main(String[] args) {
-		transactions trans = new transactions(5000, "transactions.csv");
+		try {
+			Scanner scnr = new Scanner(System.in);
+			System.out.println("Please enter the filename");
+			String filename = scnr.next();
+			System.out.println("Please enter the number of the points used");
+			int points = scnr.nextInt();
+			transactions trans = new transactions(points, filename);
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
 	}
 }
